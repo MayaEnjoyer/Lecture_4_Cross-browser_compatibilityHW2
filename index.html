@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Таблиця 2 🤯</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<table class="tbl tbl--80">
+    <caption>Друга таблиця, <strong>БАТЬКІВСЬКА</strong></caption>
+
+    <colgroup>
+        <col class="col-28">
+        <col class="col-12">
+        <col class="col-60">
+    </colgroup>
+
+    <tr>
+        <td class="cell" colspan="2">1–2</td>
+        <td class="cell">3</td>
+    </tr>
+
+    <tr>
+        <td class="cell">4</td>
+        <td class="cell" colspan="2" rowspan="2">
+            <div class="child">
+                <div class="child__caption">Друга таблиця, <strong>ДОЧІРНЯ</strong></div>
+
+                <div class="child-grid">
+                    <div class="box box--sm item-1">1</div>
+                    <div class="box item-258">2-5-8</div>
+                    <div class="box box--lg item-36">3-6</div>
+                    <div class="box box--lg item-47">4-7</div>
+                    <div class="box box--sm item-9">9</div>
+                </div>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="cell">7</td>
+    </tr>
+</table>
+
+</body>
+</html>
