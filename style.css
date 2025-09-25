@@ -32,9 +32,11 @@ body{
     padding: 6px 8px;
 }
 
+
 .child{
     --sm-h: 80px;
     --lg-h: 160px;
+
     padding: 8px 12px;
 }
 
@@ -57,8 +59,7 @@ body{
     align-items: center;
     justify-content: center;
     border: 1px solid #2a3a53;
-    border-left: 0;
-    border-top: 0;
+    border-left: 0; border-top: 0;
     color: #eaeff6;
 }
 
@@ -68,5 +69,9 @@ body{
 .item-47  { grid-column: 1; grid-row: 2; }
 .item-9   { grid-column: 3; grid-row: 2; }
 
-.box--sm{ min-height: var(--sm-h); }
-.box--lg{ min-height: var(--lg-h); }
+.box--sm{  min-height: var(--sm-h); }
+.box--lg{  min-height: var(--lg-h); }
+
+.item-9{
+    padding-top: 75px;
+}
